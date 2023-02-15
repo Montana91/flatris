@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'default'
+  vmImage: 'KeithMontanaAgent'
 
 steps:
 - task: NodeTool@0
